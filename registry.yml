@@ -1,0 +1,26 @@
+author: rhkwong
+license: MIT
+category: planning
+stability: stable
+tags: [planning, project-management, task-management, orchestration]
+agents: [claude, cursor, windsurf, copilot]
+languages: [any]
+min_symposia_version: ">=0.5.0"
+
+when_to_use: planning multi-step tasks, breaking down features, managing complex projects
+not_when: single-step tasks, quick fixes
+
+scenarios:
+  - plan a feature implementation
+  - break down a large task into subtasks
+  - coordinate multi-file changes
+
+problems:
+  - agents lose track of multi-step tasks
+  - no structured planning approach
+  - tasks executed in wrong order
+
+depends_on: []
+complements: []
+conflicts_with: []
+supersedes: null
